@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env  node index.js",
+    "dev": "cross-env  nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiKablukov/NodeJs-hw-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiKablukov/NodeJs-hw-01/issues"
+  },
+  "homepage": "https://github.com/VitaliiKablukov/NodeJs-hw-01#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^4.0.0"
+  }
+}
